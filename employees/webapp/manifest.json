@@ -142,13 +142,16 @@
       ],
       "targets": {
         "container": {
-          "viewName": "Container"
+          "viewName": "Container",
+          "viewId": "container"
         },
         "master":{
-          "viewName":"Master"
+          "viewName":"Master",
+          "viewId": "master"
         },
         "orderDetails":{
-          "viewName":"OrderDetails"
+          "viewName":"OrderDetails",
+          "viewId": "orderdetails"
         }
       }
         },
