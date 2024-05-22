@@ -18,11 +18,11 @@ server:
         backend:
           - path: /sap
             url: http://erp13.sap4practice.com:9037
-            client: '001'
+            client: "001"
             destination: logaligroupERP
           - path: /v2
             url: https://services.odata.org
-            destination: Northwind  
+            destination: Northwind
     - name: fiori-tools-appreload
       afterMiddleware: compression
       configuration:

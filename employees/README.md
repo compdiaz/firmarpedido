@@ -1,9 +1,9 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Sat May 11 2024 18:40:08 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Sat May 18 2024 14:38:34 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>@sap/generator-fiori-freestyle|
-|**App Generator Version**<br>1.13.3|
+|**App Generator Version**<br>1.13.4|
 |**Generation Platform**<br>SAP Business Application Studio|
 |**Template Used**<br>simple|
 |**Service Type**<br>SAP System (ABAP On Premise)|
@@ -12,7 +12,7 @@
 |**Application Title**<br>App Title|
 |**Namespace**<br>|
 |**UI5 Theme**<br>sap_horizon|
-|**UI5 Version**<br>1.123.1|
+|**UI5 Version**<br>1.124.0|
 |**Enable Code Assist Libraries**<br>False|
 |**Enable TypeScript**<br>False|
 |**Add Eslint configuration**<br>False|

@@ -15,16 +15,16 @@ sap.ui.define([
                 oView = this.getView(),
                 oController = this;
 
-            oJSONModelEmployees.loadData("../localService/mockdata/Employees.json");
+            oJSONModelEmployees.loadData("./model/json/Employees.json");
             oView.setModel(oJSONModelEmployees, "jsonEmployees");
 
-            oJSONModelCountries.loadData("../localService/mockdata/Countries.json");
+            oJSONModelCountries.loadData("./model/json/Countries.json");
             oView.setModel(oJSONModelCountries, "jsonCountries");
 
-            oJSONModelConfig.loadData("../localService/mockdata/Config.json");
+            oJSONModelConfig.loadData("./model/json/Config.json");
             oView.setModel(oJSONModelConfig, "jsonConfig");
 
-            oJSONModelLayout.loadData("../localService/mockdata/Layout.json");
+            oJSONModelLayout.loadData("./model/json/Layout.json");
             oView.setModel(oJSONModelLayout, "jsonLayout");
 
             this._oEventBus = sap.ui.getCore().getEventBus();

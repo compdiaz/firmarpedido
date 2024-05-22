@@ -49,12 +49,13 @@
                         </Column>
                         <Column minScreenWidth="Small"
                                 demandPopin="false">
-                            <Label text="{i18n>tableShowDetils}"/>
+                            <Label text="{i18n>tableShowDetails}"/>
                         </Column>
                     </columns>
                     <items>
                         <ColumnListItem press="onNavToDetails"
-                                        type="Navigation">
+                                        type="Navigation"
+                                        >
                             <cells>
                                 <ObjectIdentifier title="{odataNorthwind>EmployeeID}"/>
                                 <Text text="{odataNorthwind>FirstName} {odataNorthwind>LastName}"/>

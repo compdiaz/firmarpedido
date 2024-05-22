@@ -3,9 +3,16 @@
   "authenticationMethod": "route",
   "routes": [
     {
-      "source": "^/sap/(.*)$",
-      "target": "/sap/$1",
+      "source": "^/sap/opu/odata/sap/YSAPUI5_SRV_01/(.*)$",
+      "target": "/sap/opu/odata/sap/YSAPUI5_SRV_01/$1",
       "destination": "logaligroupERP",
+      "authenticationType": "xsuaa",
+      "csrfProtection": false
+    },
+    {
+      "source": "^/v2/northwind/northwind.svc/(.*)$",
+      "target": "/v2/northwind/northwind.svc/$1",
+      "destination": "Northwind",
       "authenticationType": "xsuaa",
       "csrfProtection": false
     },

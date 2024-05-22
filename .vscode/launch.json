@@ -2,6 +2,33 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "Start employees",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npx",
+      "cwd": "${workspaceFolder}/employees",
+      "windows": {
+        "runtimeExecutable": "npx.cmd"
+      },
+      "runtimeArgs": [
+        "fiori",
+        "run"
+      ],
+      "args": [
+        "--open",
+        "test/flpSandbox.html#employees-display"
+      ],
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "outputCapture": "std",
+      "port": 9229,
+      "env": {
+        "DEBUG": "--inspect",
+        "FIORI_TOOLS_URL_PARAMS": "sap-client=001&sap-ui-xx-viewCache=false",
+        "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/Employees/employees\"}"
+      }
+    },
+    {
       "name": "Start employees Mock",
       "type": "node",
       "request": "launch",
@@ -78,7 +105,7 @@
       "internalConsoleOptions": "openOnSessionStart",
       "outputCapture": "std",
       "env": {
-        "FIORI_TOOLS_UI5_VERSION": "1.123.1",
+        "FIORI_TOOLS_UI5_VERSION": "1.124.0",
         "FIORI_TOOLS_UI5_URI": "https://ui5.sap.com",
         "FIORI_TOOLS_URL_PARAMS": "sap-ui-xx-viewCache=false",
         "run.config": "{\"handlerId\":\"fiori_tools\",\"runnableId\":\"/home/user/projects/Employees/employees\"}"
